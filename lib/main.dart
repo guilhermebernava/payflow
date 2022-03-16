@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:payflow/modules/home/home.dart';
 import 'package:payflow/modules/login/login.dart';
 import 'package:payflow/modules/splash/splash.dart';
 import 'package:payflow/shared/themes/appColors.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Payflow',
       theme: ThemeData(primaryColor: AppColors.primary),
-      home: const Login(),
+      home: const Home(),
     );
   }
 }
